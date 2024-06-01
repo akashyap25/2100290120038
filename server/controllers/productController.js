@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require('uuid');
 const COMPANIES = ["AMZ", "FLP", "SNP", "MYN", "AZO"];
 const CATEGORIES = ["Phone", "Computer", "TV", "Earphone", "Tablet", "Charger", "Mouse", "Keypad", "Bluetooth", "Pendrive", "Remote", "Speaker", "Headset", "Laptop", "PC"];
 const BASE_URL = "http://20.244.56.144/test/companies/{company}/categories/{category}/products";
-const AUTH_TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzE3MjE5NzI0LCJpYXQiOjE3MTcyMTk0MjQsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImM4NDRiYTkyLTM5NTYtNDRhYi04OTZkLWZhMTkzNDVjODgzMCIsInN1YiI6ImFudXJhZy4yMTI1Y3NzMTE3OUBraWV0LmVkdSJ9LCJjb21wYW55TmFtZSI6Im93bk1hcnQiLCJjbGllbnRJRCI6ImM4NDRiYTkyLTM5NTYtNDRhYi04OTZkLWZhMTkzNDVjODgzMCIsImNsaWVudFNlY3JldCI6IkJveFdCYXplS1JRU3FIbUYiLCJvd25lck5hbWUiOiJBbnVyYWcgS3VtYXIiLCJvd25lckVtYWlsIjoiYW51cmFnLjIxMjVjc3MxMTc5QGtpZXQuZWR1Iiwicm9sbE5vIjoiMjEwMDI5MDEyMDAzOCJ9.xHdFJoRla8csOCp2EbDSlZuZMYvbw5Oj-KQ3WXuuoMk";
+const AUTH_TOKEN = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiZXhwIjoxNzE3MjI1OTYxLCJpYXQiOjE3MTcyMjU2NjEsImlzcyI6IkFmZm9yZG1lZCIsImp0aSI6ImM4NDRiYTkyLTM5NTYtNDRhYi04OTZkLWZhMTkzNDVjODgzMCIsInN1YiI6ImFudXJhZy4yMTI1Y3NzMTE3OUBraWV0LmVkdSJ9LCJjb21wYW55TmFtZSI6Im93bk1hcnQiLCJjbGllbnRJRCI6ImM4NDRiYTkyLTM5NTYtNDRhYi04OTZkLWZhMTkzNDVjODgzMCIsImNsaWVudFNlY3JldCI6IkJveFdCYXplS1JRU3FIbUYiLCJvd25lck5hbWUiOiJBbnVyYWcgS3VtYXIiLCJvd25lckVtYWlsIjoiYW51cmFnLjIxMjVjc3MxMTc5QGtpZXQuZWR1Iiwicm9sbE5vIjoiMjEwMDI5MDEyMDAzOCJ9.XMwJBodCRZrlietGFowdUN1GRyHc073xv_MltET_mVs";
 
 
 // Fetch products from a company
